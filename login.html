@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .login-container h2 {
+            color: #e53935;
+            margin-bottom: 20px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            width: 100%;
+            background-color: #e53935;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-btn:hover {
+            background-color: #d32f2f;
+        }
+        .social-login {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+        .social-btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 5px;
+            font-size: 14px;
+        }
+        .facebook {
+            background-color: #3b5998;
+            color: white;
+        }
+        .google {
+            background-color: #db4437;
+            color: white;
+        }
+        .signup-link {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .signup-link a {
+            color: #e53935;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Zomato</h2>
+        <input type="email" class="input-field" placeholder="Email Address">
+        <input type="password" class="input-field" placeholder="Password">
+        <button class="login-btn">Login</button>
+        <div class="social-login">
+            <button class="social-btn facebook">Facebook</button>
+            <button class="social-btn google">Google</button>
+        </div>
+        <p class="signup-link">New to Zomato? <a href="sign-up.html">Sign up</a></p>
+    </div>
+</body>
+</html>
